@@ -398,7 +398,7 @@ Build-Depends: libmariadb-dev
 Module: databases/mod_pgsql
 Description: Adds mod_pgsql
  Adds mod_pgsql.
-Build-Depends: libpq-dev 
+Build-Depends: libpq-dev
 
 ## mod/dialplans
 
@@ -483,6 +483,10 @@ Description: mod_unicall
 Module: endpoints/mod_verto
 Description: Adds mod_verto.
  Adds mod_verto.
+
+Module: endpoints/mod_wabizapi
+Description: mod_wabizapi
+ Adds mod_wabizapi.
 Build-Depends: libperl-dev
 Build-Depends-Buster: libperl-dev, libgdbm-compat-dev
 Build-Depends-Bullseye: libperl-dev, libgdbm-compat-dev
